@@ -1,2 +1,2 @@
 mod vulkan_state;
-use vulkan_state::VulkanState;
+pub use vulkan_state::VulkanState;

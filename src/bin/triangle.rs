@@ -1,9 +1,5 @@
-use ash;
-use ash::vk;
-use glfw;
-
-use rusty::VulkanState;
+use rvkr::VulkanState;
 
 fn main() {
-    let global_state = VulkanState::new((800, 600));
+    let global_state = VulkanState::new("NonRT Triangle", (800, 600));
 }

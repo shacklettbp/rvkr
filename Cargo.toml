@@ -1,5 +1,5 @@
 [package]
-name = "rusty"
+name = "rvkr"
 version = "0.1.0"
 authors = ["Brennan Shacklett <bpshacklett@gmail.com>"]
 edition = "2018"
