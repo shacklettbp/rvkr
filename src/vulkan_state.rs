@@ -1,4 +1,5 @@
 use ash;
+use ash::extensions::{khr::XlibSurface, nv::RayTracing, nv};
 
 pub struct VulkanState {
     pub entry: ash::Entry,
